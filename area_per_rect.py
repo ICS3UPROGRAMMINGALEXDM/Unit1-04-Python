@@ -11,7 +11,7 @@ def calculate():
     num2 = input("What is the width of your rectangle?\n").strip()
     height = int(num1)
     width = int(num2)
-    perimeter = (2*height) + (2 * width)
+    perimeter = (2 * height) + (2 * width)
     area = height * width
     print("The perimeter of your rectangle is {} u. ".format(perimeter))
     print("The area of your rectangle is {} u^2!".format(area))
